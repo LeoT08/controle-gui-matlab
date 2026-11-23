@@ -6,8 +6,13 @@ Each tab uses **the same MATLAB functions, in the same order, as the original sc
 
 ## Quick start
 
-1. Download [`ProjetoFafa_final/CONTROLE_GUI.m`](ProjetoFafa_final/CONTROLE_GUI.m). The whole interface is in this one file.
-2. Open it in MATLAB (R2020a or newer) or upload it to [MATLAB Online](https://matlab.mathworks.com).
+1. Clone the repository, or just download [`CONTROLE_GUI.m`](CONTROLE_GUI.m). The whole interface is in this one file.
+
+   ```bash
+   git clone https://github.com/LeoT08/controle-gui-matlab.git
+   ```
+
+2. Open the folder in MATLAB (R2020a or newer) as the Current Folder, or upload `CONTROLE_GUI.m` to [MATLAB Online](https://matlab.mathworks.com).
 3. In the Command Window, run:
 
    ```matlab
@@ -62,7 +67,7 @@ Every tab has the same layout. On the left are the inputs, the **Calcular** butt
 
 | Branch | Contents |
 |---|---|
-| `main` (default) | Only the interface: `ProjetoFafa_final/CONTROLE_GUI.m`. This is all you need to run it. |
+| `main` (default) | Only the interface: `CONTROLE_GUI.m`. This is all you need to run it. |
 | `scripts-originais` | The interface plus the original lesson scripts (`AULA*.m`) and Simulink models (`AULA2.slx`, `AULA3.slx`), kept unchanged as reference. |
 
 `git clone` fetches `main` by default. To get the original scripts as well:
