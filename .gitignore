@@ -1,0 +1,8 @@
+# Documentacao (contem dados pessoais do aluno) - nao versionar
+*.docx
+
+# Pacote de entrega (contem o .docx acima)
+*.zip
+Entrega*/
+
+ProjetoFafa_final/LEIA-ME.txt
